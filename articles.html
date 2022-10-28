@@ -1,12 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Articles</title>
-</head>
-<body>
-    
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Articles</title>
+		<link
+			rel="stylesheet"
+			href="assets/vendors/themify-icons/css/themify-icons.css"
+		/>
+		<link rel="stylesheet" href="assets/css/dorang.css" />
+		<style>
+			.modal1 {
+				display: none; /* Hidden by default */
+				position: fixed; /* Stay in place */
+				z-index: 1; /* Sit on top */
+				padding-top: 100px; /* Location of the box */
+				left: 0;
+				top: 0;
+				width: 100%; /* Full width */
+				height: 100%; /* Full height */
+				overflow: auto; /* Enable scroll if needed */
+				background-color: rgb(0, 0, 0); /* Fallback color */
+				background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+			}
+
+			/* Modal Content */
+			.modal-content1 {
+				background-color: #fefefe;
+				margin: auto;
+				padding: 20px;
+				border: 1px solid #888;
+				width: 80%;
+				border-radius: 25px;
+			}
+
+			.modal-content1 > h2 {
+				color: #000 !important;
+			}
+			.modal-content1 > p {
+				color: #000 !important;
+                font-size: 16px;
+			}
+
+			/* The Close Button */
+			.close1 {
+				color: #aaaaaa;
+				float: right;
+				font-size: 28px;
+				font-weight: bold;
+			}
+
+			.close1:hover,
+			.close1:focus {
+				color: #000;
+				text-decoration: none;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body class="dark-theme">
+		<nav
+			class="page-navbar"
+			data-spy="affix"
+			data-offset-top="10"
+			style="z-index: 999"
+		>
+			<ul class="nav-navbar container">
+				<li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+				<li class="nav-item">
+					<a href="articles.html" class="nav-link">Articles</a>
+				</li>
+				<li class="nav-item">
+					<img src="assets/imgs/logo.png" alt="MSFE LOGO" />
+				</li>
+				<li class="nav-item">
+					<a href="gallery.html" class="nav-link">Gallery</a>
+				</li>
+				<li class="nav-item">
+					<a href="schedule.html" class="nav-link">Schedule</a>
+				</li>
+			</ul>
+		</nav>
+		<br />
+		<br />
+		<br />
+		<div class="container page-container">
+			<div class="col-md-10 col-lg-8 m-auto">
+				<h2 class="title mb-4">Articles</h2>
+				<p class="mb-5">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+					sed do eiusmod tempor incididunt ut labore et dolore magna
+					aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+					ullamco laboris nisi ut aliquip ex ea commodo.
+				</p>
+			</div>
+
+			<!-- row -->
+			<div class="row mb-4" id="articles-div"></div>
+		</div>
+
+		<div id="myModal" class="modal1">
+			<div class="modal-content1">
+				<span class="close1">&times;</span>
+				<h2 style="text-align: center;" id="modh2">Some text in the Modal..</h2>
+                <br>
+                <p id="modp"></p>
+			</div>
+		</div>
+	</body>
+	<script src="articles.js"></script>
 </html>
