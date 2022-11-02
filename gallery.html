@@ -1,12 +1,111 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/css/dorang.css">
+    <script src="https://kit.fontawesome.com/7c793e18ae.js" crossorigin="anonymous"></script>
+    <style>
+        .cards {
+            background-image: linear-gradient(#cbf4fa, #ccfacb);
+            height: 30%;
+            width: 100%;
+        }
+
+        #card {
+            height: 10%;
+            width: 20%;
+            border: 3px solid #587291;
+            background-color: powderblue;
+            text-align: center;
+            margin: 14%;
+            color: #587291 !important;
+            text-shadow: 10px;
+            box-shadow: 50px;
+        }
+
+        a {
+            color: #b0aea2;
+            text-shadow: 10px;
+            box-shadow: 50px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 23.5px;
+            font-weight: 5;
+        }
+
+        a:hover {
+            color: #fff;
+            text-shadow: 30px;
+            box-shadow: 200px;
+        }
+
+        #card:hover {
+            border: 3px solid powderblue;
+            background-color: #587291;
+            color: white !important;
+            text-shadow: 30px;
+            box-shadow: 200px;
+        }
+    </style>
 </head>
-<body>
-    
+
+<body class="dark-theme" data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <nav class="page-navbar" data-spy="affix" data-offset-top="10" style="z-index: 999">
+        <ul class="nav-navbar container">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item">
+                <a href="articles.html" class="nav-link">Articles</a>
+            </li>
+            <li class="nav-item">
+                <img src="assets/imgs/logo.png" alt="MSFE LOGO" />
+            </li>
+            <li class="nav-item">
+                <a href="gallery.html" class="nav-link">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a href="schedule.html" class="nav-link">Schedule</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="black-box" class="hidden bg-black bg-opacity-80 h-full w-full justify-center items-center z-10 fixed">
+        <div class="slideshow-container w-9/11" id="slideshow"></div>
+
+        <button onclick="CloseSlideShow()" class="absolute left-0 top-0 h-48 w-48 scale-25 z-50">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="">
+                <path d="M 10,10 l 90,90 M 100,10 l -90,90" stroke="white" stroke-width="10" />
+            </svg>
+        </button>
+    </div>
+
+    <h1 class="w-100 text-center text-6xl text-slate-800 heading my-6"><a href="gallery.html">Gallery</a></h1>
+    <div class="grid min-h-screen" id="main-grid"></div>
+
+
+    <nav class="w-full justify-center my-10 hidden" id="pagination-cont">
+        <ul class="inline-flex items-center -space-x-px bg-blue-300 bg-opacity-60 h-12 w-auto" id="pagination">
+        </ul>
+    </nav>
+
+    <footer class="p-4 bg-[#587291] square-lg shadow md:px-6 md:py-8 dark:bg-gray-900">
+        <div class="">
+            <ul class="flex flex-wrap text-center mb-6 text-sm text-white sm:mb-0 dark:text-gray-400">
+                <li><a class="text-xs text-center">Copyright © 2022 - All Rights Reserved | Step By Step School</a>
+                </li>
+                <li class="text-center hover:underline md:mr-6 text-sm font-bold font-mono">
+                        ...
+                </li>
+            </ul>
+        </div>
+
+
+    </footer>
+
+
+    <script src="./gallery.js"></script>
 </body>
+
 </html>

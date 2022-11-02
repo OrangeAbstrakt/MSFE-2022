@@ -20,6 +20,49 @@ let articles = [
                 tempor incididunt ut labore et dolore magna aliqua.`,
 		body: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, cupiditate corporis exercitationem enim sint dolorem dolores commodi aliquam soluta obcaecati maxime pariatur molestias ut? Nulla officiis nobis qui accusantium ullam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae optio aliquid quae nemo aliquam, omnis earum, velit quia possimus incidunt similique? Eaque quos facilis repudiandae, aperiam itaque illum cumque accusantium.`,
 	},
+	{
+		image: "assets/imgs/img-1.jpg",
+		title: "Test Article",
+		preview: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.`,
+		body: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, cupiditate corporis exercitationem enim sint dolorem dolores commodi aliquam soluta obcaecati maxime pariatur molestias ut? Nulla officiis nobis qui accusantium ullam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae optio aliquid quae nemo aliquam, omnis earum, velit quia possimus incidunt similique? Eaque quos facilis repudiandae, aperiam itaque illum cumque accusantium.`,
+	},
+	{
+		image: "assets/imgs/img-1.jpg",
+		title: "Test Article",
+		preview: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.`,
+		body: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, cupiditate corporis exercitationem enim sint dolorem dolores commodi aliquam soluta obcaecati maxime pariatur molestias ut? Nulla officiis nobis qui accusantium ullam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae optio aliquid quae nemo aliquam, omnis earum, velit quia possimus incidunt similique? Eaque quos facilis repudiandae, aperiam itaque illum cumque accusantium.`,
+	},
+	{
+		image: "assets/imgs/img-1.jpg",
+		title: "Test Article",
+		preview: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.`,
+		body: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, cupiditate corporis exercitationem enim sint dolorem dolores commodi aliquam soluta obcaecati maxime pariatur molestias ut? Nulla officiis nobis qui accusantium ullam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae optio aliquid quae nemo aliquam, omnis earum, velit quia possimus incidunt similique? Eaque quos facilis repudiandae, aperiam itaque illum cumque accusantium.`,
+	},
+	{
+		image: "assets/imgs/img-1.jpg",
+		title: "Test Article",
+		preview: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.`,
+		body: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, cupiditate corporis exercitationem enim sint dolorem dolores commodi aliquam soluta obcaecati maxime pariatur molestias ut? Nulla officiis nobis qui accusantium ullam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae optio aliquid quae nemo aliquam, omnis earum, velit quia possimus incidunt similique? Eaque quos facilis repudiandae, aperiam itaque illum cumque accusantium.`,
+	},
+	{
+		image: "assets/imgs/img-1.jpg",
+		title: "Test Article",
+		preview: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.`,
+		body: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, cupiditate corporis exercitationem enim sint dolorem dolores commodi aliquam soluta obcaecati maxime pariatur molestias ut? Nulla officiis nobis qui accusantium ullam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae optio aliquid quae nemo aliquam, omnis earum, velit quia possimus incidunt similique? Eaque quos facilis repudiandae, aperiam itaque illum cumque accusantium.`,
+	},
+	{
+		image: "assets/imgs/img-1.jpg",
+		title: "Test Article",
+		preview: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.`,
+		body: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, cupiditate corporis exercitationem enim sint dolorem dolores commodi aliquam soluta obcaecati maxime pariatur molestias ut? Nulla officiis nobis qui accusantium ullam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae optio aliquid quae nemo aliquam, omnis earum, velit quia possimus incidunt similique? Eaque quos facilis repudiandae, aperiam itaque illum cumque accusantium.`,
+	},
+
 ];
 
 function createArticleCard(image, title, index, preview) {
