@@ -199,7 +199,7 @@ let day_query = new URLSearchParams(queryString).get("day")
 // create cards
 const FormatCard = (thumbnail, i, caption) => {
     if (day_query == null || !(Number(day_query) >= 0))     // i = day
-        return `<div style="animation-delay:${i * 50}ms" class="card cursor-pointer w-full max-w-xs bg-powderblue rounded-lg shadow-md">
+        return `<div style="animation-delay:${i * 50}ms" class="card cursor-pointer w-full max-w-xs bg-black rounded-lg shadow-md">
         <img class=" rounded-t-lg" src="${thumbnail}" />
         <div class="px-3 pb-3 mt-3">
            <div class="flex justify-between items-center">
