@@ -1,0 +1,24 @@
+.art-container{
+    width: 70%;
+    margin: 10% auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-evenly;
+    row-gap: 20px;
+}
+
+.art-holder{
+    width: 50%;
+    height: 33.3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.art{
+    width: 80%;
+    height: auto;
+}
+
